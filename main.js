@@ -1,5 +1,5 @@
 async function getNews(){
-    await fetch('https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=YOUR_API_KEY')
+    await fetch('https://api.nytimes.com/svc/mostpopular/v2/viewed/1.json?api-key=PArAU4j7NBcWjkypHxRqeIiBuGrAPt1X')
     .then(d => d.json())
     .then(response => {
         console.log(response.results);
